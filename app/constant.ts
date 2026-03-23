@@ -420,9 +420,9 @@ You are an AI assistant with access to system tools. Your role is to help users 
    
 `;
 
-export const SUMMARIZE_MODEL = "gpt-4o-mini";
-export const GEMINI_SUMMARIZE_MODEL = "gemini-pro";
-export const DEEPSEEK_SUMMARIZE_MODEL = "deepseek-chat";
+export const SUMMARIZE_MODEL = "glm-4-flashx";
+export const GEMINI_SUMMARIZE_MODEL = "glm-4-flashx";
+export const DEEPSEEK_SUMMARIZE_MODEL = "glm-4-flashx";
 
 export const KnowledgeCutOffDate: Record<string, string> = {
   default: "2021-09",
@@ -542,26 +542,11 @@ const openaiModels = [
 ];
 
 const googleModels = [
-  "gemini-1.5-pro-latest",
-  "gemini-1.5-pro",
-  "gemini-1.5-pro-002",
-  "gemini-1.5-flash-latest",
-  "gemini-1.5-flash-8b-latest",
-  "gemini-1.5-flash",
-  "gemini-1.5-flash-8b",
-  "gemini-1.5-flash-002",
-  "learnlm-1.5-pro-experimental",
-  "gemini-exp-1206",
-  "gemini-2.0-flash",
-  "gemini-2.0-flash-exp",
-  "gemini-2.0-flash-lite-preview-02-05",
-  "gemini-2.0-flash-thinking-exp",
-  "gemini-2.0-flash-thinking-exp-1219",
-  "gemini-2.0-flash-thinking-exp-01-21",
-  "gemini-2.0-pro-exp",
-  "gemini-2.0-pro-exp-02-05",
-  "gemini-2.5-pro-preview-06-05",
-  "gemini-2.5-pro"
+  "gemini-2.5-flash",
+  "gemini-2.5-flash-lite",
+  "gemini-3-flash-preview",
+  "gemini-3.1-flash-lite-preview",
+  "gemma-3-27b-it"
 ];
 
 const anthropicModels = [
