@@ -456,13 +456,11 @@ const openaiModels = [
   // As of July 2024, gpt-4o-mini should be used in place of gpt-3.5-turbo,
   // as it is cheaper, more capable, multimodal, and just as fast. gpt-3.5-turbo is still available for use in the API.
   "gpt-4-turbo",
-  "gpt-4-turbo-preview",
   "gpt-4.1",
   "gpt-5-chat",
   "gpt-5-mini",
   "gpt-5-nano",
   "gpt-5",
-  "gpt-5-chat-2025-01-01-preview",
   "gpt-4o",
   "gpt-4o-mini",
 ];
@@ -476,8 +474,8 @@ const googleModels = [
 ];
 
 const anthropicModels = [
-  "claude-sonnet-4-20250514",
-  "claude-opus-4-20250514",
+  "claude-sonnet-4",
+  "claude-opus-4",
 ];
 
 const baiduModels = [
