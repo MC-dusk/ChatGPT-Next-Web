@@ -142,11 +142,11 @@ function getSummarizeModel(
       ];
     }
   }
-  if (currentModel.startsWith("gemini")) {
-    return [GEMINI_SUMMARIZE_MODEL, ServiceProvider.Google];
-  } else if (currentModel.startsWith("deepseek-")) {
-    return [DEEPSEEK_SUMMARIZE_MODEL, ServiceProvider.DeepSeek];
-  }
+  // if (currentModel.startsWith("gemini")) {
+  //   return [GEMINI_SUMMARIZE_MODEL, ServiceProvider.Google];
+  // } else if (currentModel.startsWith("deepseek-")) {
+  //   return [DEEPSEEK_SUMMARIZE_MODEL, ServiceProvider.DeepSeek];
+  // }
 
   return [currentModel, providerName];
 }
