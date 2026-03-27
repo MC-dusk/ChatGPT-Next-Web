@@ -455,12 +455,13 @@ export const EXCLUDE_VISION_MODEL_REGEXES = [/claude-3-5-haiku-20241022/];
 const openaiModels = [
   // As of July 2024, gpt-4o-mini should be used in place of gpt-3.5-turbo,
   // as it is cheaper, more capable, multimodal, and just as fast. gpt-3.5-turbo is still available for use in the API.
-  "gpt-4-turbo",
   "gpt-4.1",
-  "gpt-5-chat",
+  "gpt-4.1-mini",
+  "gpt-4.1-nano",
+  "gpt-5",
   "gpt-5-mini",
   "gpt-5-nano",
-  "gpt-5",
+  "gpt-5-chat",
   "gpt-4o",
   "gpt-4o-mini",
 ];
